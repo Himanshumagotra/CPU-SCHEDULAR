@@ -12,7 +12,7 @@ This project is a simulator we built to dig into how page replacement algorithms
  Libraries: tkinter (comes with Python) and matplotlib (you might need to install this).
  ## Setup Steps
  ###  Grab the code from the repo:
- '''git clone https://github.com/mynkpandey/Page-Replacement-Simulator.git'''
+ '''git clone https://github.com/Himanshumagotra/Page-Replacement-Simulator'''
  ### Move into the project folder:
  '''cd Page-Replacement-Simulator'''
  ### Install matplotlib if you don’t have it:
