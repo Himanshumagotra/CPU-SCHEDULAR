@@ -31,10 +31,9 @@ This project is a simulator we built to dig into how page replacement algorithms
  Tkinter: Built the GUI with this.
  Matplotlib: Makes the charts to see the results.
  # Project Breakdown
- main.py: Kicks everything off.
- simulation.py: Where the algorithm logic lives.
- gui.py: Handles the interface and user inputs.
- visualization.py: Turns the data into charts.
+ main.py- Python3 is used
+ python framework TKINTER
+ Data visualization- MATPLOTLIB
  
  Feedback or Ideas?
  This is a work in progress, so if you’ve got thoughts on making it better, we’d love to hear them! You can:
