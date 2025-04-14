@@ -42,4 +42,4 @@ This project is a simulator we built to dig into how page replacement algorithms
  Send a pull request if you tweak something cool.
  It’s all about learning, so any input helps.
  
- Built by [Himanshu Magotra,].
+ Built by [Himanshu Magotra,Jayasri Lakshmi Karanam,K . Sai Vaishnav Kumar].
