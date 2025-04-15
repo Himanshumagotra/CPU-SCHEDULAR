@@ -1,45 +1,118 @@
-# Page-Replacement-Simulator
-This project is a simulator we built to dig into how page replacement algorithms work in operating systems. It focuses on three big ones: FIFO (First-In-First-Out), LRU (Least Recently Used), and Optimal. The idea is to see how these handle memory frames and page requests, tracking stuff like page faults and showing the results in charts. It’s a hands-on way to compare their efficiency.
- # What It Does
- Runs simulations for FIFO, LRU, and Optimal algorithms.
- Lets you set the number of memory frames and type in your own page request sequence.
- Shows page faults for each algorithm so you can compare them.
- Draws charts to visualize how they perform.
- Has a simple GUI to make it easy to use.
- # Getting Started
- ## What You Need
- Python 3.x installed (any recent version should work).
- Libraries: tkinter (comes with Python) and matplotlib (you might need to install this).
- ## Setup Steps
- ###  Grab the code from the repo:
- '''git clone https://github.com/Himanshumagotra/Page-Replacement-Simulator'''
- ### Move into the project folder:
- '''cd Page-Replacement-Simulator'''
- ### Install matplotlib if you don’t have it:
- '''pip install matplotlib'''
- ## How to Run It
- ### Start the simulator with:
- '''python main.py'''
- ### In the GUI:
- Pick how many memory frames you want.
- Enter a page sequence (like 1,2,3,4,1).
- Choose which algorithms to test (FIFO, LRU, Optimal).
- Hit Run Simulation to see what happens.
- ### Check out the page faults and the comparison chart it spits out.
- # Tools I Used
- Python: For all the main code and logic.
- Tkinter: Built the GUI with this.
- Matplotlib: Makes the charts to see the results.
- # Project Breakdown
- main.py- Python3 is used
- python framework TKINTER
- Data visualization- MATPLOTLIB
- 
- Feedback or Ideas?
- This is a work in progress, so if you’ve got thoughts on making it better, we’d love to hear them! You can:
- 
- Report bugs or suggest features by opening an issue.
- Send a pull request if you tweak something cool.
- It’s all about learning, so any input helps.
- 
- Built by [Himanshu Magotra,Jayasri Lakshmi Karanam,K . Sai Vaishnav Kumar].
+Intelligent CPU Scheduler Simulator
+This project is a Python-based simulator that demonstrates and compares different CPU scheduling algorithms, including FCFS, SJF, Round Robin, Priority Scheduling, and an AI-powered adaptive scheduler. It provides a hands-on way to analyze algorithm efficiency through Gantt charts and performance metrics.
+
+🚀 Key Features
+✅ Supports 6 Scheduling Algorithms
+
+First-Come-First-Serve (FCFS)
+
+Shortest Job First (SJF) – Preemptive & Non-Preemptive
+
+Priority Scheduling – Preemptive & Non-Preemptive
+
+Round Robin (RR) with adjustable time quantum
+
+Multilevel Feedback Queue (MLFQ) – Advanced scheduling
+
+AI Auto-Mode – Dynamically selects the best algorithm
+
+✅ Interactive GUI
+
+Input process details manually or generate random processes
+
+Adjust time quantum for Round Robin
+
+Visualize scheduling with Gantt charts
+
+✅ Performance Metrics
+
+Waiting Time, Turnaround Time, Response Time
+
+CPU Utilization
+
+Comparative Analysis between algorithms
+
+✅ AI-Powered Enhancements
+
+Quantum Optimizer (ML-based) for Round Robin
+
+Priority Predictor for adaptive scheduling
+
+⚙️ Installation & Setup
+Prerequisites
+Python 3.6+
+
+Required libraries: tkinter, matplotlib, scikit-learn, numpy
+
+Steps to Run
+Clone the repository:
+
+bash
+Copy
+git clone https://github.com/your-repo/Intelligent-CPU-Scheduler.git
+cd Intelligent-CPU-Scheduler
+Install dependencies:
+
+bash
+Copy
+pip install numpy scikit-learn matplotlib
+Run the simulator:
+
+
+python main.py
+🎮 How to Use
+Add Processes
+
+Enter PID, Arrival Time, Burst Time, Priority, Type
+
+Or click "Generate Random" for quick testing
+
+Select Algorithm
+
+Choose from FCFS, SJF, Round Robin, etc.
+
+Enable Auto Mode for AI-based selection
+
+Run Simulation
+
+View Gantt Chart (timeline of process execution)
+
+Check Performance Metrics (waiting time, CPU utilization)
+
+Compare Results
+
+Switch algorithms to see efficiency differences
+
+📊 Performance Metrics Explained
+Metric	Description	Ideal Goal
+Waiting Time	Time a process waits in the ready queue	Minimize
+Turnaround Time	Total time from arrival to completion	Minimize
+Response Time	Time until first CPU response	Minimize
+CPU Utilization	Percentage of CPU busy time	Maximize
+🛠️ Technologies Used
+Category	Tools/Libraries
+Core Language	Python 3
+GUI Framework	Tkinter
+Visualization	Matplotlib
+Machine Learning	scikit-learn (Quantum Optimizer)
+Data Handling	NumPy, Pandas
+📜 Project Structure
+Copy
+📂 Intelligent-CPU-Scheduler  
+├── main.py            # Main GUI & simulation logic  
+├── algorithms.py      # Scheduling algorithm implementations  
+├── ml_optimizer.py    # AI-based quantum optimization  
+├── README.md          # Project documentation  
+└── requirements.txt   # Dependencies  
+🤝 Contributing & Feedback
+Found a bug? Open an issue.
+
+Want to improve something? Submit a pull request.
+
+Suggestions? Let’s discuss!
+
+Built   by [Himanshu magotra ]
+
+📌 Quick Start Command
+
+git clone https://github.com/your-repo/Intelligent-CPU-Scheduler.git && cd Intelligent-CPU-Scheduler && pip install -r requirements.txt && python main.py
